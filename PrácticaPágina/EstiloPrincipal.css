@@ -1,3 +1,59 @@
-.header{
-    background-color: beige;
+.Cabecera{
+    background-color:black;
+    color:whitesmoke;
+    text-align: center;
 }
+img{
+    max-height: 720px;
+}
+
+.boton{
+    background-color: teal;
+    color:whitesmoke;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Pie{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  #layout{
+      width: 95%;
+  }
+  #Columnabienvenida{
+     background-attachment: fixed;
+  }
+
+  #Columnaenlaces{
+      background-color: turquoise;
+  }
+
+  .tarjeta{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  .contenedor{
+    text-align: center;
+    padding: 10px 20px;
+  }

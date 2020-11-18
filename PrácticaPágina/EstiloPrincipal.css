@@ -7,18 +7,7 @@ img{
     max-height: 500px;
 }
 
-.boton{
-    background-color: teal;
-    color:whitesmoke;
-    align-items: center;
-    text-align: center;
-    border-radius: 15px;
-    padding: 0;
-    margin: 4px 2px;
-    width: 100%;
-    display: inline;
-}
-#menu li a {
+.Nav a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 11px;
   text-decoration: none;
@@ -28,13 +17,19 @@ img{
   color: #fff;
   width: 100%;
   display: inline;
+  text-align: center;
 }
 
-#menu li a:hover {
+.Nav  a:hover {
   background-color: #2586d7;
   margin-top: -2;
   padding-bottom: 12px;
   }
+
+.Nav img{
+  width: 100px;
+  height: 100px;
+}
 
 .grid-container {
     display: grid;

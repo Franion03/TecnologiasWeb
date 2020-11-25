@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Ejemplo objeto documento</title>
+        <script>
+            function nuevaVentana(){
+            nueva=window.open("","Hora", "scrollbars=yes, width=350, height=120, top=500, left=500");
+            nueva.document.writeln("<html><head><title>");
+            nueva.document.writeln("Ejemplo hora");
+            nueva.document.writeln("</title></head><body bgcolor=#ffff90>");
+            hora("nueva");
+            }
+            function hora(par_ventana){
+            var ventana, fecha;
+            fecha = new Date();
+            ventana = eval(par_ventana);
+            ventana.document.write(fecha.getHours()+":" + fecha.getMinutes()+ ":" + fecha.getSeconds());
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Prueba Hora</h1>
+        <script> nuevaVentana(); </script>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+. h3{
+  text-align: left;
+}
+
+.Cabecera{
+    background-color:black;
+    color:whitesmoke;
+    text-align: center;
+}
+img{
+    max-height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nav a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 11px;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+.Nav  a:hover {
+  background-color: #2586d7;
+  margin-top: -2;
+  padding-bottom: 12px;
+  }
+
+.Nav img{
+  width: 100px;
+  height: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Pie{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  #layout{
+      width: 95%;
+  }
+  #Columnabienvenida{
+     background-attachment: fixed;
+  }
+
+  #Columnaenlaces{
+      background-color: turquoise;
+  }
+
+  #Columnaenlaces h2{
+    color: blanchedalmond;
+}
+
+  .tarjeta{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  .contenedor{
+    text-align: center;
+    padding: 10px 20px;
+  }
+  div.logo{
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    div.logo img{
+      width:500px
+    }
+  }
+  table.Clasificacion {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table.Clasificacion td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  table.Clasificacion  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

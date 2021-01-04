@@ -117,7 +117,7 @@ font-weight:normal;
 
 .Novedades{
     background-color: chartreuse;
-    color:black
+    color:black;
 }
 
 .Novedades a:hover{
@@ -175,3 +175,7 @@ ul.Menu  li a {
 ul.Menu  li a:hover {
     background-color: #111111;
   }
+
+#Novedades{
+    display:block;
+}

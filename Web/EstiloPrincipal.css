@@ -1,8 +1,8 @@
-. h3{
+.h3{
   text-align: left;
 }
 
-.Cabecera{
+#Cabecera{
     background-color:black;
     color:whitesmoke;
     text-align: center;
@@ -52,10 +52,12 @@ img{
     text-align: center;
   }
 
-  .Pie{
-    background-color: rgb(34, 34, 34);
+  #Pie{
+    background: rgb(34, 34, 34);
     text-align: center;
     color: whitesmoke;
+    clear: both;
+
   }
 
   #layout{
@@ -78,6 +80,7 @@ img{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
+    position:absolute;
   }
 
   .contenedor{
@@ -108,3 +111,4 @@ img{
   table.Clasificacion  tr:nth-child(even) {
     background-color: #dddddd;
   }
+
